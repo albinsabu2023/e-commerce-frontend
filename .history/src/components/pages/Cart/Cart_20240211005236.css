@@ -1,0 +1,26 @@
+.cart {
+    display: flex;
+    flex-direction: column; 
+    
+
+}
+
+.shopTitle {
+    color: rgb(1, 1, 76);
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cartItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin: 30px;
+
+}
+.checkout{
+    background-color: black;
+    display: flex;
+}

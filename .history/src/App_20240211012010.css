@@ -1,0 +1,8 @@
+.App{
+    overflow-y: scroll;
+}
+
+    ::-webkit-scrollbar {
+            background-color: rgb(1, 42, 1);
+            width: 20px;}
+

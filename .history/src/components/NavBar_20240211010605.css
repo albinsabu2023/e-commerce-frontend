@@ -1,0 +1,21 @@
+.NavBar{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.shopName{
+    justify-content: flex-start;
+}
+.NavBar a{
+    align-items: center;
+    
+    text-decoration: none;
+    color: white;
+    margin:0px 20px;
+}
+.NavBarEnd{
+    justify-content: flex-end;
+}

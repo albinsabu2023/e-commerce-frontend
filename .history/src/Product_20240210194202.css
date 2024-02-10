@@ -1,0 +1,8 @@
+.productCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productCard img{
+    height: 100px;
+}

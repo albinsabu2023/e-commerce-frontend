@@ -1,0 +1,11 @@
+.productCard{
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    
+}
+.productCard img{
+    height: 300px;
+    width: 300px;
+}

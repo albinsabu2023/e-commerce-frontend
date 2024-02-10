@@ -1,0 +1,6 @@
+.App{
+    overflow-y: scroll;
+}
+.App::-webkit-scrollbar {
+    background-color: green;
+}

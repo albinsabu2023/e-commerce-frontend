@@ -1,0 +1,54 @@
+.productCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(139, 139, 139);
+}
+
+.productCard img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.productCard button {
+    margin: 10px;
+    padding: 4px 9px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(3, 54, 3);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+.productCard button:hover {
+    background-color: rgb(0, 144, 0);
+}
+
+.productDescription {
+    padding: 20px;
+}
+
+.productDescription p {
+    color: rgb(196, 4, 4);
+    padding: 2px 3px;
+}
+.countHandler{
+     border:2px solid green;
+    margin: 10px;
+    border-radius: 10px;
+}
+.countHandler input{
+    width: 40px;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+}

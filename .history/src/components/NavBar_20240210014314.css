@@ -1,0 +1,13 @@
+.NavBar{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.NavBar a{
+    text-decoration: none;
+    color: white;
+    margin:0 20px;
+}

@@ -1,0 +1,22 @@
+.NavBar{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.NavBar  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    flex.2
+    
+}
+
+.navBarEnd{
+    display: flex;
+    flex: .4;
+}

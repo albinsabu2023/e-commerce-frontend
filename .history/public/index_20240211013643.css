@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+}
+body::-webkit-scrollbar{
+        width: 8px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(5, 77, 17);
+}

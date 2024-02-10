@@ -1,0 +1,38 @@
+.cart {
+    display: flex;
+    flex-direction: column; 
+    overflow-y:scroll;
+
+}
+
+.shopTitle {
+    color: rgb(1, 1, 76);
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cartItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin: 30px;
+
+}
+.checkout{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding:20px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.checkout button{
+    margin:2px 30px;
+    border:none;
+}

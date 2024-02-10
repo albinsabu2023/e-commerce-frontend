@@ -1,0 +1,21 @@
+.shop{
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+.shopTitle{
+    color: rgb(1, 1, 76);
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.shopProducts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin: 30px;
+   
+}

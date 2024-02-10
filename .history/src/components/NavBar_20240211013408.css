@@ -1,0 +1,33 @@
+.NavBar{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.shopName{
+    justify-self: flex-start;
+}
+
+.NavBar  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+    
+}
+.navBarEnd {
+    display: flex;
+}
+
+.navBarEnd a{
+    margin-right: 0px;
+}

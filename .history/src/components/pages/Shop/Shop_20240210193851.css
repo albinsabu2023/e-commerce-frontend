@@ -1,0 +1,10 @@
+.shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.shopTitle{
+    color: rgb(1, 1, 76);
+
+}

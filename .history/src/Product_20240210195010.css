@@ -1,0 +1,12 @@
+.productCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(232, 232, 232);
+    
+}
+.productCard img{
+    height: 300px;
+    width: 300px;
+}
